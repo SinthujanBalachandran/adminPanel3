@@ -1,5 +1,5 @@
-var ctx = document.getElementById('doughnut').getContext('2d');
-var myChart = new Chart(ctx, {
+var ctx2 = document.getElementById('doughnut').getContext('2d');
+var myChart2 = new Chart(ctx2, {
     type: 'doughnut',
     data: {
         labels: ['Academic', 'Non-Academic', 'Administration', 'Others'],
